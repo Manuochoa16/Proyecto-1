@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,14 +38,18 @@
         </section>
 
         <section>
-            <form class="actividades">
-                <input type="text" class="input-titulo" placeholder="TITULO">
-                <input type="text" class="input-descripcion" placeholder="DESCRIPCION">
-                <input type="url" class="input-url" placeholder="URL DE IMAGEN">
-                <button>Submit</button>
+            <form id="form" class="actividades">
+                <input type="text" id="titulo" class="input-titulo" placeholder="TITULO">
+                <input type="text" id="descripcion" class="input-descripcion" placeholder="DESCRIPCION">
+                <input type="text" id="imagen" class="input-url" placeholder="URL DE IMAGEN">
+                <button type="submit" id="add">Crear Actividad</button>
+                <button id="eliminarTodas">Eliminar todas las actividades</button>
             </form>
         </section>
-    </main>
+        <div id="container">
+            <!-- Aca van las tarjetas -->
+        </div>
+        <button id="eliminarTodas">Eliminar todas las actividades</button>
 
     <footer>&copy; 2024 Manuel Ochoa. Todos los derechos reservados</footer>   
     <script src="/scripts/index.js"></script>

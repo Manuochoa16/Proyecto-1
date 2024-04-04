@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(19, 18, 18);
     color: white;
     text-align: center;
@@ -10,7 +10,9 @@ body{
     margin-bottom: 10px;
 }
 
-.titulo, .subtitulo, .subtitulo2 {
+.titulo,
+.subtitulo,
+.subtitulo2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -19,68 +21,65 @@ body{
     padding: 5px;
 }
 
-
 .descripcion {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(50, 46, 46);
-    margin: 20px auto; 
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
     max-width: 60%;
 }
-
 
 .tecnologias {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: rgb(50, 46, 46);
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap; 
-    margin: 20px auto; 
+    flex-wrap: wrap;
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
     max-width: 60%;
 }
 
-
 .titulo4 {
-    margin-bottom: 20px; 
-    flex-basis: 100%; 
-    text-align: center; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-bottom: 20px;
+    flex-basis: 100%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 
 .contenedor {
     text-align: center;
-    margin: 10px; 
+    margin: 10px;
 }
 
-
-.foto-html, .foto-css, .foto-js {
+.foto-html,
+.foto-css,
+.foto-js {
     height: 200px;
 }
 
 .actividades {
     background-color: rgb(50, 46, 46);
-    margin: 20px auto; 
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 10px; 
-    max-width: 60%; 
+    border-radius: 10px;
+    max-width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-.input-titulo, .input-descripcion, .input-url {
+.input-titulo,
+.input-descripcion,
+.input-url {
     width: 90%;
     margin-bottom: 10px;
     background-color: #333;
     color: rgb(201, 192, 192);
 }
-
 
 .input-descripcion {
     height: 100px;
@@ -94,3 +93,51 @@ body{
 .contenedor:hover {
     transform: scale(1.1);
 }
+
+#container {
+    max-width: 60%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.styleDiv {
+    flex: 0 0 30%;
+    margin: 10px;
+    background-color: rgb(50, 46, 46);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.styleDiv:hover {
+    transform: scale(1.1);
+}
+
+#eliminarTodas {
+    display: none;
+}
+
+.imgPreview {
+    width: 200px;
+    height: 150px;
+}
+
+.botMod {
+    background: #d64646;
+    background-image: -webkit-linear-gradient(top, #d64646, #1e2326);
+    background-image: -moz-linear-gradient(top, #d64646, #1e2326);
+    background-image: -ms-linear-gradient(top, #d64646, #1e2326);
+    background-image: -o-linear-gradient(top, #d64646, #1e2326);
+    background-image: linear-gradient(to bottom, #d64646, #1e2326);
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
